@@ -1,0 +1,104 @@
+﻿
+.container {
+    width: 500px;
+    background-color:dimgrey;
+    margin-left: 150px;
+    padding: 50px;
+    color:white;
+    
+}
+    .container h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container .myInput {
+        display: flex;
+        width: 100%;
+        position: center;
+        margin-left: 30px;
+        height: 40px;
+    }
+   
+
+
+.myInput input{
+    width:80%;
+    height:85%;
+    margin-left:10px;
+}
+.myButton {
+    width: 55px;
+    height: 40px;
+    background-color:darkcyan;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 2px;
+    font-size: 14px;
+    opacity: 0.8;
+    pointer-events: none;
+}
+.container button.active {
+    opacity: 1;
+    pointer-events: auto;
+    width: 60px;
+}
+
+
+.itemList {
+    margin-top:30px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+ 
+.itemList li {
+    position: relative;
+    list-style: none;
+    line-height: 40px;
+   padding-left:10px;
+    width: 95%;
+    height: 40px;
+   border: 1px solid;
+    margin-bottom: 5px;
+    border-radius:5px;
+}
+.itemList button {
+    text-align:center;
+    float: right;
+    padding:5px;
+    margin-top:5px;
+    margin-right:5px;
+    border-radius: 5px;
+    background-color:tomato;
+    width: 30px;
+    height:30px;
+    color:white;
+}
+    .itemList button:hover {
+        width: 35px;
+        height: 32px;
+    }
+
+
+.clearAll {
+    text-align: center;
+    padding-top:20px;
+}
+    .clearAll button {
+        width: 65px;
+        height: 40px;
+        background-color: darkcyan;
+        border: none;
+        outline: none;
+        color: white;
+    }
+        .clearAll button:hover {
+            width: 75px;
+            height: 42px;
+        }
+
+
+
+
